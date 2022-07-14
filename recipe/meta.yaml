@@ -1,6 +1,5 @@
 {% set name = "OceanColor" %}
-{% set version = "0.0.9" %}
-
+{% set version = "0.0.20" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/OceanColor-{{ version }}.tar.gz
-  sha256: 078aa5aec1dc61ce560196795ef236586aa4e1cf289de27cb3a8750849f7038f
+  sha256: 79d58f1ce2b1c9d7b6b49aff15e9753d5afcdb912e60ed6ffd7947be38ff8cbf
 
 build:
   number: 0
@@ -21,19 +20,18 @@ requirements:
   host:
     - pip
     - pytest-runner
-    - python >=3.6
+    - python >=3.8
   run:
-    - click >=7.1.1
-    - h5netcdf >=0.8
-    - h5py >=2.10
-    - netcdf4 >=1.5
-    - numpy >=1.17
-    - pandas >=1.0
-    - pyproj >=2.6
-    - python >=3.6
-    - requests >=2.23
-    - pytables >=3.6
-    - xarray >=0.16
+    - aiohttp >=3.8.1
+    - click >=8.0
+    - fsspec >=2022.1
+    - netcdf4 >=1.5.6
+    - numpy >=1.21
+    - pandas >=1.3
+    - pyproj >=3.0
+    - python >=3.8
+    - requests >=2.27
+    - xarray >=0.19
 
 test:
   imports:
