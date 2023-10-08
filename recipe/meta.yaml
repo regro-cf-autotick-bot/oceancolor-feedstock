@@ -1,5 +1,5 @@
 {% set name = "OceanColor" %}
-{% set version = "0.0.20" %}
+{% set version = "0.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/OceanColor-{{ version }}.tar.gz
-  sha256: 79d58f1ce2b1c9d7b6b49aff15e9753d5afcdb912e60ed6ffd7947be38ff8cbf
+  sha256: c88d7b81ed3e5aef3c754a5fe064c55f37c475e6d55dd405f1d79cb830fa2849
 
 build:
   number: 0
