@@ -1,11 +1,11 @@
-About oceancolor
-================
+About oceancolor-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/oceancolor-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/castelao/OceanColor
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/oceancolor-feedstock/blob/main/LICENSE.txt)
 
 Summary: Deal with NASA Ocean Color data (search and download)
 
